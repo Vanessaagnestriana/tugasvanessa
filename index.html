@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Discon Travel</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    
+
+        <div class="conten">
+
+            <form name="Form">
+
+                <table border="1" align="center"width="70%">
+
+                    <tr>
+
+                        <td width="100%" colspan="2">
+
+                            <h2 ALIGN="center">
+
+                                Travel Bus Pariwisata
+
+                            </h2>
+
+                            <h6>
+
+                                VANESSA AGNES TRIANA 
+
+                            </h6>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td width="100%"> 
+
+                            <label>
+
+                                Nama 
+
+                            </label>
+
+                            <input name="InputNama" class="InputNama" type="text">
+
+                            <br><br>
+
+                            <label>
+
+                                Tujuan
+
+                            </label>
+
+                            <select name="InputTujuan" class="InputTujuan">
+
+                                <option></option>
+
+                                <option value="palopo">
+                                    
+                                    palopo
+
+                                </option>
+
+                                <option value="Toraja">
+
+                                    Toraja
+
+                                </option>
+
+                                <option value="pare-pare">
+
+                                    pare-pare
+
+                                </option>
+
+                            </select>
+
+                            <br><br>
+
+                            <label>
+
+                                Kelas
+
+                            </label>
+
+                            <select name="InputKelas" class="InputKelas">
+
+                                <option></option>
+
+                                <option value="Ekonomi">
+                                    
+                                    Ekonomi
+                                
+                                </option>
+
+                                <option value="Vip">
+                                    
+                                    Vip
+                                
+                                </option>
+
+                                <option value="Eksekutif">
+                                    
+                                    Eksekutif
+                                
+                                </option>
+
+                            </select>
+
+                            <br><br>
+
+                            <label>
+
+                                Jumlah Tiket
+
+                            </label>
+
+                            <input name="InputJumlahTiket" class="InputJumlahTiket" type="number">
+
+                            <br><br>
+
+                            <label>
+
+                                Member
+
+                            </label>
+
+                            <input name="InputMember" class="InputMember" type="checkbox">
+
+                            <label>Ya</label>
+
+                        </td>
+
+                        <td width="50%">
+
+                            <label>
+
+                                Harga Tiket
+
+                            </label>
+
+                            <input name="OutputHargaTiket" class="OutputHargaTiket" type="text">
+
+                            <br><br>
+
+                            <label>
+
+                                Sub Total
+
+                            </label>
+
+                            <input name="OutputSubTotal" class="OutputSubTotal" type="text">
+
+                            <br><br>
+
+                            <label>
+
+                                Diskon
+
+                            </label>
+
+                            <input name="OutputDiskon" class="OutputDiskon" type="text">
+
+                            <br><br>
+
+                            <label>
+
+                                Total Bayar
+
+                            </label>
+
+                            <input name="OutputTotalBayar" class="OutputTotalBayar" type="text">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td width="100%" colspan="2">
+
+                            <INPUT TYPE="button" value="Hitung" class="button"> 
+                                
+                            <INPUT TYPE="reset"  value="Clean"  class="reset"> 
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </form>
+            
+        </div>
+        
+        <div class="TabelOutput">
+
+
+            <form name="Form1">
+
+                <table border="1" >
+
+                    <tr>
+    
+                        <td>Nama</td>
+    
+                        <td>
+
+                            <input name="aku" class="saya" type="text">
+    
+                        </td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Tujuan</td>
+    
+                        <td class="OutputTujuan"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Kelas</td>
+    
+                        <td class="OutputKelas"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Jumlah Tiket</td>
+    
+                        <td class="OutputJumlahTiket"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Member</td>
+    
+                        <td class="OutputMember"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Harga Tiket</td>
+    
+                        <td class="OutputHargaTiket"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Sub Total</td>
+    
+                        <td class="OutputSubTotal"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Diskon</td>
+    
+                        <td class="OutputDiskon"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td>Total Bayar</td>
+    
+                        <td class="OutputTotalBayar"></td>
+    
+                    </tr>
+    
+                    <tr>
+    
+                        <td class="Nama" colspan="2">
+    
+                            <button class="button">Batal</button>
+    
+                            <button class="button">Bayar</button>
+    
+                        </td>
+    
+                    </tr>
+    
+                </table>
+    
+
+            </form>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

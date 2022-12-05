@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-image: url(/foto005.jpg); */
+    background-image: url(../bus.Png);
+    background-size: 100% 100%;
+    /* background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
+
+}
+
+.conten {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    margin-left: 150px;
+    background-color: rgba(230, 230, 230, 0.316);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.conten form table tr td {
+    padding: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.conten form table {
+    width: 650px;
+    position: relative;
+}
+
+.InputNama {
+    margin-left: 90px;
+}
+
+.InputNama:hover {
+    background-color: rgba(156, 156, 156, 0.116);
+}
+.InputNama:active {
+    background-color: rgb(255, 255, 255);
+}
+.InputTujuan:hover {
+    background-color: rgba(156, 156, 156, 0.116);
+}
+.InputTujuan:active {
+    background-color: white;
+}
+.InputKelas:hover {
+    background-color: rgba(156, 156, 156, 0.116);
+}
+.InputKelas:active {
+    background-color: white;
+}
+.InputJumlahTiket:hover {
+    background-color: rgba(156, 156, 156, 0.116);
+}
+.InputJumlahTiket:active {
+    background-color: white;
+}
+
+h6 {
+    text-align: center;
+    padding-top: 1.5%;
+    font-weight: bold;
+}
+
+.InputTujuan {
+    margin-left: 75px;
+    width: 170px;
+}
+
+.InputKelas {
+    margin-left: 86px;
+    width: 170px;
+}
+
+.InputJumlahTiket {
+    margin-left: 18px;
+    width: 170px;
+}
+
+.InputMember {
+    margin-left: 68px;
+}
+
+.button, .reset {
+    padding: 1.2%;
+    background-color: rgba(167, 189, 163, 0.717);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: rgb(0, 0, 0);
+}
+
+.button:active {
+    background-color: rgba(255, 255, 255, 0.139);
+}
+
+.reset:active {
+    background-color: rgba(255, 255, 255, 0.139);
+}
+
+.TabelOutput {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    margin-left: 150px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.TabelOutput table {
+
+}
+
+.TabelOutput table tr td {
+    padding: 15px;
+    height:50px;
+}
+
+.Nama {
+    width: 100%;
+    text-align: center;
+}
+
+.OutputNama {
+   width: 60%;
+
+}
